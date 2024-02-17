@@ -11,3 +11,8 @@ Once created, you can activate the environment with the following command:
 ```
 conda activate kivy_app_env
 ```
+## Running the app
+Once the environment is activated & you're in the root folder, the following command will run the app
+```
+python -m app.main
+```

@@ -1,0 +1,29 @@
+@startsalt 2024-02-17_folder_structure
+title "Folder Structure"
+left footer "Alex Kuhn - 2024-02-17"
+{
+{T
+==kivy-whats-this/
++app/
+++_ _init_ _.py
+++app.py
+++config.py
+++main.py
++assets/
+++fonts/
+++images/
++database/
++docs/
+++design/
++++//design diagrams//
++tests/
+++_ _init_ _.py
+++test_main.py
++.env
++.gitignore
++environment.yml
++README.md
+}
+}
+
+@endsalt
