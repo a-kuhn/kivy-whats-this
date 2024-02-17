@@ -1,0 +1,11 @@
+name: kivy_app_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip=24.0
+  - requests=2.31
+  - sqlalchemy=1.4
+  - pip:
+    - kivy==2.3.0
