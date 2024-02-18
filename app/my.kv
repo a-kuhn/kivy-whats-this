@@ -1,0 +1,15 @@
+#:kivy 2.3.0
+
+<LoginScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        TextInput:
+            id: user_id_input
+            hint_text: 'User ID'
+        TextInput:
+            id: password_input
+            hint_text: 'Password'
+            password: True
+        Button:
+            text: 'Login'
+            on_press: root.login(user_id_input.text, password_input.text)

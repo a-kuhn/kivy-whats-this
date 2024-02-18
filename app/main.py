@@ -1,18 +1,15 @@
-import kivy
-
-kivy.require("2.3.0")
-
 from kivy.app import App
-from kivy.uix.label import Label
+from app.views.login_view import LoginScreen
+from app.views.user_view import UserView
+from app.controllers.user_controller import UserController
 
 
 class MyApp(App):
-
     def build(self):
         self.title = "What's This?"
-        return Label(text="Hello world")
+        self.controller = UserController(UserView())
+        return LoginScreen()
 
 
 if __name__ == "__main__":
     MyApp().run()
-    print()
